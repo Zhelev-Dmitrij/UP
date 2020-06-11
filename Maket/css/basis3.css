@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: justify;
+}
+
+#container {
+  text-indent: 10%;
+  font-family:Arial, sans-serif;
+  font-size: 16px;
+
+}
+.header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background: url(454.png) no-repeat;
+  background-position: center;
+}
+
+.block_1 {
+  min-height: 100vh;
+  width: 100%;
+  display: table;
+  height: 700px;
+}
+
+#block_1_b {
+  width: 100%;
+  height: 350px;
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align:left;
+  color:black;
+  font-size: 18px;
+}
+
+.block_2 {
+  background: url(22222.jpg) center;
+  background-size: cover;
+  text-align: center;
+  float: left;
+  width: 70%;
+  display: table;
+  height: 600px;
+}
+
+
+.block_3 {
+  margin-left: 71%;
+  height: 700px;
+  text-align: left;
+  color: black;
+}
+
+.block_4
+{
+  width: 30%;
+  margin-left: 1%;
+  height: 800px;
+  text-align: left;
+  color: black;
+}
+
+
+.block_5 {
+  background: url(lol.jpg) center;
+  background-size: contain;
+  margin-left: 1%;
+  float: right;
+  width: 70%;
+  display: table;
+  height: 600px;
+}
+
+.block_6 {
+  width: 100%;
+  height: 600px;
+  background: url(fit.jpg) center;
+  background-size: cover;
+}
+
+.block_7 {
+  text-align: center;
+  float: left;
+  width: 70%;
+  display: table;
+  height: 700px;
+}
+
+#footer {
+  top: 650px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+
+}
+
+
+@media (max-width:950px)
+{
+  #block_1_b {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+
+  }
+  .block_1 {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    height: 50px;
+  }
+  .block_2, .block_5, .block_7 {
+    float: none;
+    width: 100%;
+  }
+  .block_3, .block_4 {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+}
