@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Практика</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/basis3.css">
+  <link rel="stylesheet" type="text/css" href="images/styles.css"  />
+
+</head>
+<body>
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="css/jquery.vide.min.js"></script>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="images/script.js"></script>
+
+
+<div id = "container">
+
+  <div id="sidebar">
+    <div class="toggle-btn" onclick="openMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="index.html">Embrase Fitness</a></li>
+      <li><a href="index_1.html">Наши инструктора</a></li>
+      <li><a href="index_2.html">Направления</a></li>
+      <li><a href="index_3.html">Регистрация</a></li>
+      <li><a href="index_4.html">Вход</a></li>
+
+    </ul>
+  </div>
+
+  <div class= "block_1" data-vide-bg='css/logo.jpg'>
+    <div class = "header"></div>
+    <div id="block_1_b">
+      <h1>Регистрация</h1>
+      
+    </div>
+  </div>
+
+ <form action="action_page.php">
+  <div class="container">
+    
+   
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Введите Email" name="email" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введите пароль" name="psw" required>
+
+    <label for="psw-repeat"><b>Повторите пароль</b></label>
+    <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+    <hr>
+
+    
+  </div>
+
+  <div class="container signin">
+    <p>Уже есть аккаунт? <a href="#">Войти</a>.</p>
+  </div>
+</form>
+
+ 
+
+  
+
+ 
+     
+
+ 
+
+  
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+  <script>
+    function openMenu() {
+      document.getElementById("sidebar").classList.toggle('active'); /*добавление или удаление класса*/
+    }
+  </script>
+
+</body>
+</html>
